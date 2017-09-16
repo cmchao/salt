@@ -83,3 +83,16 @@ pkgs_admin_tool:
 env_lecale:
   locale.present:
     - name: zh_TW.UTF-8
+
+
+#########################################
+# managed by formula
+# 
+include:
+  - chrony
+  - git
+  - openssh
+  - openssh.client
+  - openssh.config
+  - salt.minion
+
