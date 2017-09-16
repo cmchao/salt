@@ -40,21 +40,22 @@ pkgs_common:
 pkgs_develop_tool:
   pkg.installed:  
     - pkgs: 
-      - automake             #build system
-      - autotools-dev        #build system
-      - build-essential      #gcc
-      - cmake                #build system
-      - codespell            #spell checking for checkpatch.pl in u-boot and Linux
-      - cscope               #generate tags files
-      - device-tree-compiler #used in Linux and u-boot
-      - doxygen              #documentation
-      - gcovr                #profiling
-      - hg-fast-export       #version control
-      - libtool              #link tool
-      - minicom              #uart connection
-      - mercurial            #version control
-      - scons                #build system
-      - tig                  #git ncurses-based viewer
+      - automake                        #build system
+      - autotools-dev                   #build system
+      - build-essential                 #gcc
+      - cmake                           #build system
+      - codespell                       #spell checking for checkpatch.pl in u-boot and Linux
+      - cscope                          #generate tags files
+      - device-tree-compiler            #used in Linux and u-boot
+      - doxygen                         #documentation
+      - gcovr                           #profiling
+      - hg-fast-export                  #version control
+      - libtool                         #link tool
+      - linux-tools-generic-lts-xenial  #perf for 4.4 kernel
+      - minicom                         #uart connection
+      - mercurial                       #version control
+      - scons                           #build system
+      - tig                             #git ncurses-based viewer
 
 pkgs_development_lib:
   pkg.installed:  
