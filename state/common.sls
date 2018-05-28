@@ -29,6 +29,7 @@ pkgs_common:
       - curl
       - dictzip
       - git-svn      
+      - parallel
       - pxz          # parallel xz
       - rar          # official rar tool
       - texinfo
