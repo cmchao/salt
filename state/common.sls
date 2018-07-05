@@ -50,6 +50,7 @@ pkgs_develop_tool:
       - device-tree-compiler            #used in Linux and u-boot
       - doxygen                         #documentation
       - gcovr                           #profiling
+      - environment-modules             #for grid environment
       - hg-fast-export                  #version control
       - libtool                         #link tool
       - linux-tools-generic-lts-xenial  #perf for 4.4 kernel
