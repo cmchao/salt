@@ -1,12 +1,12 @@
 [submodule "/srv/salt/formula/git"]
-	path = /srv/salt/formula/git
+	path = formula/git
 	url = https://github.com/saltstack-formulas/git-formula.git
 [submodule "/srv/salt/formula/openssh"]
-	path = /srv/salt/formula/openssh
+	path = formula/openssh
 	url = https://github.com/saltstack-formulas/openssh.git
 [submodule "/srv/salt/formula/salt"]
-	path = /srv/salt/formula/salt
+	path = formula/salt
 	url = https://github.com/saltstack-formulas/salt-formula.git
 [submodule "/srv/salt/formula/chrony"]
-	path = /srv/salt/formula/chrony
+	path = formula/chrony
 	url = https://github.com/saltstack-formulas/chrony-formula.git
