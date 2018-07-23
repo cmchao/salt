@@ -5,3 +5,6 @@ base:
     - develop
   'cmchao':
     - salt.master
+  # ubuntu image
+  'osboxes':
+    - salt.master
