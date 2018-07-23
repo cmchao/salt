@@ -37,6 +37,9 @@ salt:
         - /srv/salt/formula/git
         - /srv/salt/formula/openssh
         - /srv/salt/formula/salt
+    file_ignore_glob:
+        - '*.pyc'
+        - '*.swp'
     pillar_roots:
       base:
         - /srv/salt/pillar
