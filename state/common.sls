@@ -29,6 +29,7 @@ pkgs_common:
       - curl
       - dictzip
       - git-svn      
+      - git-review   # gerrit git reviewing tool
       - parallel
       - pxz          # parallel xz
       - rar          # official rar tool
