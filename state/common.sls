@@ -60,6 +60,7 @@ pkgs_develop_tool:
       - repo                            #handle bunch of repos
       - scons                           #build system
       - tig                             #git ncurses-based viewer
+      - valgrind                        #memory leak and heap checker
 
 pkgs_development_lib:
   pkg.installed:  
