@@ -65,6 +65,7 @@ pkgs_develop_tool:
 pkgs_development_lib:
   pkg.installed:  
     - pkgs: 
+      - libboost-all-dev
       - libglib2.0-dev
       - libgtk2.0-dev
       - libgoogle-perftools-dev
