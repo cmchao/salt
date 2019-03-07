@@ -73,13 +73,16 @@ pkgs_development_lib:
 pkgs_admin_tool:
   pkg.installed:  
     - pkgs: 
+      - apt-file          #reverse search installed file tool
       - aptitude          #alternative to apt-get
       - bridge-utils      #bridge setup tool
       - htop              #color top
       - gparted           #disk partition manipulation
       - iftop             #network monitor tool
       - iotop             #monitor system io
+      - mdadm             #software raid management tool
       - python-pip        #python official package tool
+      - python3-pip       #python3 official package tool
       - sysstat           #linux performance tool
       - uml-utilities     #tuntap tool
 
