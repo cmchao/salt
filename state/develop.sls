@@ -21,3 +21,16 @@ develop_network:
     - pkgs:
       - libcunit1-dev
       - libpcap-dev
+
+develop_gcc:
+  pkg.installed:
+    - pkgs:
+      - bison
+      - flex
+      - gawk
+      - libz-dev
+      - libssl-dev
+      - libgmp-dev
+      - libmpfr-dev
+      - libmpc-dev
+
