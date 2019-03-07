@@ -57,3 +57,5 @@ sshd_config:
     - 22
     - 55688
   PermitRootLogin: 'no'
+  AllowAgentForwarding: 'yes'
+  X11Forwarding: 'yes'
