@@ -8,3 +8,5 @@ base:
   # ubuntu image
   'osboxes':
     - salt.master
+  'cmchao':
+    - salt.master
