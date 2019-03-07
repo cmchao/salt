@@ -57,6 +57,7 @@ pkgs_develop_tool:
       - linux-tools-generic-lts-xenial  #perf for 4.4 kernel
       - minicom                         #uart connection
       - mercurial                       #version control
+      - repo                            #handle bunch of repos
       - scons                           #build system
       - tig                             #git ncurses-based viewer
 
