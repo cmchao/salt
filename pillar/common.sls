@@ -3,13 +3,11 @@ admin:
   email: cmchao@gmail.com
 
 chrony:
-  config:
-    ntpservers:  [
-                 "0.tw.pool.ntp.org",
-                 "1.tw.pool.ntp.org",
-                 "2.tw.pool.ntp.org",
-                 "3.tw.pool.ntp.org"
-                 ]
+  ntpservers:
+    - "0.tw.pool.ntp.org"
+    - "1.tw.pool.ntp.org"
+    - "2.tw.pool.ntp.org"
+    - "3.tw.pool.ntp.org"
 
 
 git:
