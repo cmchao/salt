@@ -71,8 +71,8 @@ pkgs_development_lib:
       - libgoogle-perftools-dev
 
 pkgs_admin_tool:
-  pkg.installed:  
-    - pkgs: 
+  pkg.installed:
+    - pkgs:
       - apt-file          #reverse search installed file tool
       - aptitude          #alternative to apt-get
       - bridge-utils      #bridge setup tool
@@ -83,9 +83,14 @@ pkgs_admin_tool:
       - mdadm             #software raid management tool
       - python-pip        #python official package tool
       - python3-pip       #python3 official package tool
+      - snmp              #snmp utility
       - sysstat           #linux performance tool
       - uml-utilities     #tuntap tool
 
+pkgs_secure_tool:
+  pkg.installed:
+    - pkgs:
+      - sshguard          #simple ssh attacking defender
 
 ##########################################
 # other
