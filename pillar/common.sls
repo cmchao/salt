@@ -49,3 +49,13 @@ sshd_config:
   PermitRootLogin: 'no'
   AllowAgentForwarding: 'yes'
   X11Forwarding: 'yes'
+
+####################################################
+# systemd
+#
+systemd:
+  timesyncd:
+    timezone: 'Asia/Taipei'
+    config:
+      NTP: time.cloudflare.com time.google.com time.windows.com
+      FallbackNTP: 2.tw.pool.ntp.org 0.tw.pool.ntp.org 1.tw.pool.ntp.org 3.tw.pool.ntp.org

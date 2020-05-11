@@ -110,4 +110,5 @@ include:
   - openssh.client
   - openssh.config
   - salt.minion
+  - systemd.timesyncd.config
 
