@@ -105,7 +105,6 @@ env_lecale:
 # managed by formula
 # 
 include:
-  - chrony
   - git
   - openssh
   - openssh.client

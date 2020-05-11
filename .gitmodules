@@ -7,6 +7,3 @@
 [submodule "/srv/salt/formula/salt"]
 	path = formula/salt
 	url = https://github.com/saltstack-formulas/salt-formula.git
-[submodule "/srv/salt/formula/chrony"]
-	path = formula/chrony
-	url = https://github.com/saltstack-formulas/chrony-formula.git
