@@ -21,7 +21,6 @@ i386_arch:
       - libncurses5:i386
       - libstdc++6:i386
 
-
 pkgs_common:
   pkg.installed:  
     - pkgs: 
@@ -82,6 +81,7 @@ pkgs_admin_tool:
       - iftop             #network monitor tool
       - iotop             #monitor system io
       - mdadm             #software raid management tool
+      - nvme-cli          #nvme device management
       - python-pip        #python official package tool
       - python3-pip       #python3 official package tool
       - snmp              #snmp utility
