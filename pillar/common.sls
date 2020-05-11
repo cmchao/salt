@@ -26,6 +26,7 @@ salt:
         - /srv/salt/formula/git
         - /srv/salt/formula/openssh
         - /srv/salt/formula/salt
+        - /srv/salt/formula/systemd
     file_ignore_glob:
         - '*.pyc'
         - '*.swp'
