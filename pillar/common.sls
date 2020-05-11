@@ -19,7 +19,7 @@ salt:
   minion_remove_config: True
 
   master:
-    interface: localhost
+    interface: 127.0.0.1
     file_roots:
       base:
         - /srv/salt/state
@@ -39,7 +39,7 @@ salt:
       - '/\.git($|/)'
 
   minion:
-    master: localhost
+    master: 127.0.0.1
 
 
 sshd_config:
