@@ -59,6 +59,7 @@ pkgs_develop_tool:
       - mercurial                       #version control
       - repo                            #handle bunch of repos
       - scons                           #build system
+      - sqlite3                         #simple sql database
       - tig                             #git ncurses-based viewer
       - valgrind                        #memory leak and heap checker
 
