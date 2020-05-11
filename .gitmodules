@@ -6,7 +6,7 @@
 	url = https://github.com/saltstack-formulas/openssh.git
 [submodule "/srv/salt/formula/salt"]
 	path = formula/salt
-	url = https://github.com/saltstack-formulas/salt-formula.git
+	url = git@github.com:saltstack-formulas/salt-formula.git
 [submodule "formula/systemd"]
 	path = formula/systemd
 	url = git@github.com:saltstack-formulas/systemd-formula.git
