@@ -19,7 +19,7 @@ salt:
   minion_remove_config: True
 
   master:
-    interface: 0.0.0.0
+    interface: localhost
     file_roots:
       base:
         - /srv/salt/state
