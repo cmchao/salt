@@ -53,7 +53,7 @@ pkgs_develop_tool:
       - environment-modules             #for grid environment
       - hg-fast-export                  #version control
       - libtool                         #link tool
-      - linux-tools-generic-lts-xenial  #perf for 4.4 kernel
+      - linux-tools-generic             #perf for kernel
       - minicom                         #uart connection
       - mercurial                       #version control
       - repo                            #handle bunch of repos
